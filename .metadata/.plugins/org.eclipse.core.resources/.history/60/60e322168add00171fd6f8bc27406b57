@@ -1,0 +1,195 @@
+package Ashish;
+
+public class Starpattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		patternreversetriangle();
+		
+	}	
+	public static void pattern1()
+	{
+		int num=6;
+		
+		for (int row = 0; row < num; row++) {
+			for (int col = 0; col < num; col++) {
+				System.out.print("*");
+			}
+			System.out.println();
+			
+		}		
+		
+	}
+	
+	public static void pattern2()
+	{
+		int num=6;
+		
+		for (int row = 0; row < num; row++) {
+			for (int col = 0; col < row; col++) {
+				System.out.print(row);
+			}
+			System.out.println();
+			
+		}		
+		
+	}
+	public static void pattern3()
+	{
+		int num=6;
+		
+		for (int row = 1; row <= num; row++) {
+			for (int col =1; col <= row; col++) {
+				System.out.print(col);
+			}
+			System.out.println();
+			
+		}		
+		
+	}
+	public static void pattern4()
+	{
+		int num=6;
+		
+		for (int row = 1; row <= num; row++) {
+			for (int col =1; col <= num; col++) {
+				
+				if (row==1 ||row==num || col==1 || col==num ) {
+
+					System.out.print(" * ");	
+				}
+				else
+				{
+					System.out.print("   ");
+				}
+			}
+			System.out.println();
+			
+		}		
+		
+	}
+
+	public static void patternA()
+	{
+		int num=6;
+		int mid=num/2;
+		System.out.println(mid);
+		
+		for (int row = 1; row <= num; row++) {
+			for (int col =1; col <= num; col++) {
+				
+				if (row==1 ||row==mid || col==1 || col==num ) {
+
+					System.out.print(" * ");	
+				}
+				else
+				{
+					System.out.print("   ");
+				}
+			}
+			System.out.println();
+			
+		}		
+		
+	}
+
+
+	public static void patternB()
+	{
+		int num=6;
+		int mid=num/2;
+		System.out.println(mid);
+		
+		for (int row = 1; row <= num; row++) {
+			for (int col =1; col <= num; col++) {
+				
+				if (row==1 ||row==mid ||row==num || col==1 || col==num ) {
+
+					System.out.print(" * ");	
+				}
+				else
+				{
+					System.out.print("   ");
+				}
+			}
+			System.out.println();
+			
+		}		
+		
+	}
+
+
+	public static void pattern7()
+	{
+		int num=6;
+		int mid=num/2;
+		System.out.println(mid);
+		
+		for (int row = 1; row <= num; row++) {
+			for (int col =1; col <= num; col++) {
+				
+				if ( col==1 || col==row ) {
+
+					System.out.print(" * ");	
+				}
+				else
+				{
+					System.out.print("   ");
+				}
+			}
+			System.out.println();
+			
+		}		
+		
+	}
+	public static void patternreversetriangle()
+	{
+		int num=6;
+		int mid=num/2;
+		System.out.println(mid);
+		
+		for (int row = 1; row <= num; row++) {
+			for (int col =1; col <= num; col++) {
+				
+				if (row==1|| col==1 ||col==row-1)
+				{
+
+					System.out.print(" * ");	
+				}
+				else
+				{
+					System.out.print("   ");
+				}
+			}
+			System.out.println();
+			
+		}		
+		
+	}
+
+	public static void patternR()
+	{
+		int num=6;
+		int mid=num/2;
+		System.out.println(mid);
+		
+		for (int row = 1; row <= num; row++) {
+			for (int col =1; col <= num; col++) {
+				
+				if (row==1 ||row==mid || col==1 || col==row  ) {
+
+					System.out.print(" * ");	
+				}
+				else
+				{
+					System.out.print("   ");
+				}
+			}
+			System.out.println();
+			
+		}		
+		
+	}
+
+}

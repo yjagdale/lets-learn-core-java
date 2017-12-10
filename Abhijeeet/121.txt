@@ -1,1 +1,19 @@
-ssfewqedvesv
+$ git clone "repository link:"
+
+$ cd 'tab'
+
+$mkdir 'foldername'          *add any file to folder*
+
+$ git status
+
+$ git add .
+
+$ git status
+
+$ git commit -m "any message"
+
+$ git push
+
+$ git pull
+
+

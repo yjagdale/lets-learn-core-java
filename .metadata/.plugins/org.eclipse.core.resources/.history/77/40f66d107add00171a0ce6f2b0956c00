@@ -1,0 +1,14 @@
+package babasaheb;
+
+public class ArrayOpration {
+
+	public static void main(String[] args) {
+		int[]userInput=new int[20];
+		for (int i = 0; i < userInput.length; i++) {
+			userInput[i]=20;
+			
+		}
+
+	}
+
+}

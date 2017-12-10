@@ -1,0 +1,26 @@
+package babasaheb;
+
+import java.util.Scanner;
+
+public class ArrayOpration {
+
+	public static void main(String[] args) {
+		int[] userInput = new int[5];
+		System.out.println("Enter a Number");
+		for (int i = 0; i < userInput.length; i++) {
+			userInput[i] = new Scanner(System.in).nextInt();
+
+		}
+		int max = 0;
+		for (int i = 0; i < userInput.length; i++) {
+			if (userInput[i] > max) {
+				max = userInput[i];
+			}
+		}
+			System.out.println("Max is" + max);
+
+		}
+
+	}
+
+

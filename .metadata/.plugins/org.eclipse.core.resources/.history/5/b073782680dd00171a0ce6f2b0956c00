@@ -1,0 +1,13 @@
+package babasaheb;
+
+public class NumberPattern {
+
+	public static void main(String[] args) {
+		int num = 6;
+		for (int col = 0; col <num; col++) {
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package babasaheb;
+
+import java.util.Scanner;
+
+public class RevArray {
+
+	public static void main(String[] args) {
+		int[] userInput = new int[5];
+
+		System.out.println("Enter a number:-");
+		for (int i = 0; i < userInput.length; i++) {
+			userInput[i] = new Scanner(System.in).nextInt();
+
+		}
+		int rev = 0;
+		for (int i = 0; i < userInput.length; i++) {
+			if(userInput[i]==0){
+				
+				
+			}
+
+			System.out.println("Rev number is" + userInput);
+
+		}
+
+	}
+}

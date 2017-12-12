@@ -1,0 +1,23 @@
+package babasaheb;
+
+public class JPattern {
+
+	public static void main(String[] args) {
+
+		int num = 10;
+		for (int row = 0; row <= num; row++) {
+			for (int col = 2; col <= num; col++) {
+				if (row == num || col == num / 2) {
+
+					System.out.print(" * ");
+				} else {
+					System.out.print("   ");
+				}
+
+			}
+			System.out.println();
+		}
+
+	}
+
+}

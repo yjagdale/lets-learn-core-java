@@ -1,4 +1,4 @@
-package Abhijeeet;
+package Abhijeeet_Patterns;
 
 public class PatternR {
 

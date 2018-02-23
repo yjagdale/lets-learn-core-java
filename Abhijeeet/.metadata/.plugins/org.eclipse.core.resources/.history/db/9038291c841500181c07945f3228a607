@@ -1,0 +1,26 @@
+package Class170218;
+
+import java.util.HashMap;
+
+public class secreteSanta {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		HashMap<String, employee> emp= new HashMap<>();
+		
+	}
+
+}
+
+class employee{
+	int empID, age;
+	String name;
+	
+	employee(int empID, int age, String name)
+	{
+		this.empID=empID;
+		this.age=age;
+		this.name=name;
+	}
+}

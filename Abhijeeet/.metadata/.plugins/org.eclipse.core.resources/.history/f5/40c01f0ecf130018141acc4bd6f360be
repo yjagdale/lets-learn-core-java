@@ -1,0 +1,26 @@
+package Class170218;
+
+public class StudentArrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<student> AL= new ArrayList<>();
+		
+
+	}
+
+}
+
+class student{
+	
+	int roll, age;
+	String name;
+	
+	student( int roll, int age, String name)
+	{
+		this.roll=roll;
+		this.age=age;
+		this.name=name;
+	}
+}

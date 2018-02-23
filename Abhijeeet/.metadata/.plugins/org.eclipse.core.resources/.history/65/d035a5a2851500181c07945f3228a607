@@ -1,0 +1,49 @@
+package Class170218;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Set;
+
+public class secreteSanta {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		HashMap<String, employee> emp= new HashMap<>();
+		HashMap<String, employee> emp1= new HashMap<>();
+		
+		emp.put("ABhi", new employee(100,25,"Abhi"));
+		emp.put("Avi", new employee(101,25,"Avi"));
+		emp.put("Anu", new employee(102,25,"Anu"));
+		emp.put("Ash", new employee(103,25,"Ash"));
+		emp1.put("Moni", new employee(104,25,"Moni"));
+		emp1.put("Swty", new employee(105,25,"Swty"));
+		emp1.put("Chiw", new employee(106,25,"chiw"));
+		emp1.put("Btoo", new employee(107,25,"B2"));
+		
+		Set<String> s = emp.keySet();
+		Set<String> s1 = emp.keySet();
+		Iterator<String> it= s.iterator();
+		Iterator<String> it1= s1.iterator();
+		
+		String st,st1;
+		while(it.hasNext()){
+			st=it.next();
+			st1=it1.next();
+			System.out.println("Pair: "+emp.get(st).name+" To gift:"+emp1.get(st).name);
+		}
+	}
+
+}
+
+class employee{
+	int empID, age;
+	String name;
+	
+	employee(int empID, int age, String name)
+	{
+		this.empID=empID;
+		this.age=age;
+		this.name=name;
+	}
+}

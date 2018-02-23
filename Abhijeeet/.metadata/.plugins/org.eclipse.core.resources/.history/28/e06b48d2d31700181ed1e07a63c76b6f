@@ -1,0 +1,52 @@
+package Abhi_Matrix;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class SecretSantaA {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Map<Integer, employee> empMap=new HashMap<>();
+		List<employee> emplist = new ArrayList<>();
+		emplist.add(new employee("Abhi"));
+		emplist.add(new employee("Abhi6"));
+		emplist.add(new employee("Abhi1"));
+		emplist.add(new employee("Abhi2"));
+		emplist.add(new employee("Abhi3"));
+		emplist.add(new employee("Abhi4"));
+		emplist.add(new employee("Abhi5"));
+		
+		List<employee> duplist =new ArrayList<>();
+		duplist.addAll(emplist);
+		
+	while(emplist.size()>0 && duplist.size()>0){
+		List<employee> empPair= new ArrayList<>();
+		
+		
+		int a= (int) (Math.random()*emplist.size());
+		int b= (int) (Math.random()*duplist.size());
+		
+		if(emplist.get(a)!=duplist.get(b)){
+			empPair.add(emplist.get(a));
+			empPair.add(emplist.get(b));
+			
+			remove(a);
+			
+		}
+	}
+			
+		}
+
+}
+
+class employee{
+	String name;
+	employee(String name){
+		this.name=name;
+	}
+	
+}

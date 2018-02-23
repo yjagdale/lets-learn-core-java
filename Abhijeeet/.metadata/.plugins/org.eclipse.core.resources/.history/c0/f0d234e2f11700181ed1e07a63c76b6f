@@ -1,0 +1,27 @@
+package Abhi_Matrix;
+
+import java.util.Scanner;
+
+public class Spiral {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc =new Scanner(System.in);
+		
+		int a=0,b = 0;
+		int[][] m= new int[a][b];
+		
+		System.out.println("Enter number of rows: "+ sc.nextInt());
+		System.out.println("Enter number of cols: "+ sc.nextInt());
+		for(int row=0; row<a; row++)
+		{
+			for(int col=0; col<b; col++)
+			{
+				m[row][col]=sc.nextInt();
+			}
+		}
+		
+
+	}
+
+}

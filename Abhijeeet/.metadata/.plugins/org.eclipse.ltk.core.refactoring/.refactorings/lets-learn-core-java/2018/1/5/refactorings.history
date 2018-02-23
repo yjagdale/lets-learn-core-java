@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Class280118.Animal&apos; to &apos;Doctor&apos;&#x0D;&#x0A;- Original project: &apos;lets-learn-core-java&apos;&#x0D;&#x0A;- Original element: &apos;Class280118.Animal&apos;&#x0D;&#x0A;- Renamed element: &apos;Class280118.Doctor&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Animal&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Class280118{Animal.java[Animal" matchStrategy="1" name="Doctor" qualified="false" references="true" similarDeclarations="false" stamp="1517119387072" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,16 @@
+package Class170218;
+
+public class secreteSanta {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		HashMap<String, employee> emp= new HashMap<>();
+		
+	}
+
+}
+
+class employee{
+	
+}

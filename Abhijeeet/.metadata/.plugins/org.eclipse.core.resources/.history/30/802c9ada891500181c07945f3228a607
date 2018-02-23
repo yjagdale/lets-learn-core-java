@@ -1,0 +1,45 @@
+package Class170218;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Random;
+import java.util.Set;
+
+public class secreteSanta {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<employee> employeeList=new ArrayList<>();
+		HashMap<Integer,List<employee>> employeePairMap = new HashMap<Integer,List<employee>>(); 
+		
+		employeeList.add(new employee(100,25,"Abhi"));
+		employeeList.add(new employee(101,25,"Avi"));
+		employeeList.add(new employee(102,25,"Anu"));
+		employeeList.add(new employee(103,25,"Ash"));
+		employeeList.add(new employee(104,25,"Moni"));
+		employeeList.add(new employee(105,25,"Swty"));
+		employeeList.add(new employee(106,25,"chiw"));
+		employeeList.add(new employee(107,25,"B2"));
+		Random random=new Random();
+		while(employeeList.size() > 0){
+			random.nextInt((employeeList.size() - 0) + 1);
+		}
+		
+	}
+
+}
+
+class employee{
+	int empID, age;
+	String name;
+	
+	employee(int empID, int age, String name)
+	{
+		this.empID=empID;
+		this.age=age;
+		this.name=name;
+	}
+}
